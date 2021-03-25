@@ -2,13 +2,13 @@ import React from 'react'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks} from './NavbarElements'
 import {FaBars} from 'react-icons/fa'
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <fragment>
         <Nav> 
             <NavbarContainer>
                 <NavLogo to='/'>LoopBreakr</NavLogo>
-                <MobileIcon>
+                <MobileIcon onClick={toggle}>
                     <FaBars/>
                 </MobileIcon>
                 <NavMenu>
