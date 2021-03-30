@@ -5,9 +5,9 @@ import {Link as LinkS} from 'react-scroll';
 
 
 export const Nav = styled.nav`
-    background: #000;
+    background: #fff;
     height: 80px;
-
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,35 +27,46 @@ export const NavbarContainer = styled.div`
     height: 80px;
     width: 100%;
     z-index: 1;
-    padding: 0 24px;
+    padding: 0 16px;
     max-width: 1100px;
 `
 
-export const NavLogo = styled(LinkR)`
-    color: #fff;
+export const NavLogoContainer = styled(LinkR)`
+    align-items: center;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
     display: flex;
-    align-items: center;
-    margin-left: 24px;
-    font-weight: bold;
-    text-decoration: none;
+`
+
+export const NavLogoIcon = styled.img`
+    width: 190px;
+    height: 100px;
+    position: "absolute", 
+    
 `
 
 export const MobileIcon = styled.div`
 display:none;
 
 @media screen and (max-width: 768px){
+    color: #56cfe1;
     display: block;
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-50%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #fff;
+    
 }
+
+&:hover{
+    color: #e9c46a;
+    transition: 0.2 ease-in-out;
+}
+
+
+
 `
 export const NavMenu = styled.ul`
     display: flex;
@@ -74,13 +85,18 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkS)`
-    color: #fff;
+    color: #56cfe1;
     display: flex;
     align-items:center;
     text-decoration: none;
     padding: 0 1rem;
     height 100%;
     cursor: pointer;
+
+    &:hover{
+        color: #e9c46a;
+        transition: 0.2 ease-in-out;
+    }
 
     &.active{
         border-bottom: 3px solid #01bf71

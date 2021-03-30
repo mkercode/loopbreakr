@@ -7,7 +7,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #0d0d0d;
+    background: #56cfe1;
     display:grid;
     align-items: center;
     top: 0;
@@ -32,7 +32,7 @@ export const Icon = styled.div`
 `
 
 export const SidebarWrapper = styled.div`
-    color: #fff;
+    color: #000;
 `
 
 export const SidebarMenu = styled.ul`
@@ -47,6 +47,7 @@ export const SidebarMenu = styled.ul`
 `
 
 export const SidebarLink = styled(LinkS)`
+    color: #fff;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -55,11 +56,10 @@ export const SidebarLink = styled(LinkS)`
     list-style: none;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    color: #fff;
     cursor: pointer;
 
     &:hover{
-        color: #01bf71;
+        color: #e9c46a;
         transition: 0.2 ease-in-out;
     }
 `
