@@ -8,6 +8,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding:100px;
+
+}
 `
 
 export const ImageSlide = styled.img`

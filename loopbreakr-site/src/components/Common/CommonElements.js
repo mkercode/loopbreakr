@@ -13,7 +13,7 @@ export const InfoWrapper = styled.div`
     display: grid;
     margin-right: auto;
     margin-left: auto;
-    padding: 40px;
+    
     justify-content: center;
 
 `
@@ -56,8 +56,7 @@ export const TopLine = styled.p`
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 16px;
-    margin: 0 0 10px 0;
+    padding: 40px 0 20px 0;
 
     @media screen and (max-width: 768px){
         padding-top: 40px;
@@ -105,6 +104,58 @@ export const ImgBelow = styled.img`
     width: 100%;
     
     justify-content: center;
-    padding: 0 40px 0 20px;
 
+`
+
+export const padWrapper = styled.div`
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+
+`
+
+export const AddPadding = styled.div`
+    padding-left: 100px;
+    padding-right: 100px;
+
+    @media screen and (max-width: 960px){
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    @media screen and (max-width: 768px){
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+`
+
+export const WideTextWrapper = styled.div`
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-right:50px;
+    padding-left:50px;
+`
+
+export const WideSubtitle = styled.p`
+    margin-bottom: 35px;
+    font-size: 15px;
+    line-height: 24px;
+    color: ${({ darkText }) => (darkText ? '#f4a261': '#fff')};
+
+    @media screen and (max-width: 480px){
+        font-size: 12px;
+    }
+
+`
+
+export const TextPadWrapper = styled.div`
+max-width: 440px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-right:50px;
+    padding-left:50px;
 `

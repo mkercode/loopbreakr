@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
-import { TextWrapper } from '../Common/CommonElements';
+import { TextWrapper, TextPadWrapper} from '../Common/CommonElements';
 import { ImageSlide, Slider, Title, Description } from './SliderElements';
 
 const ImageSlider = ({slides}) => {
@@ -15,8 +15,6 @@ const ImageSlider = ({slides}) => {
         setCurrent(current === 0 ? length - 1 : current - 1)
     }
 
-    console.log(current);
-
     if(!Array.isArray(slides) || slides.length <= 0){
         return null;
     }
@@ -30,8 +28,8 @@ const ImageSlider = ({slides}) => {
                 <div className={index === current ? 'slide active' : 'slide'}>
                 {index === current && (
                     <div>
-                        <ImageSlide src={slide.image} alt={slide.name}/>
                         <TextWrapper>
+                        <ImageSlide src={slide.image} alt={slide.name}/>
                         <Title>{slide.name}</Title>
                         <Description>{slide.details}</Description>
                         </TextWrapper>

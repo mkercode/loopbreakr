@@ -23,7 +23,7 @@ export const projectsObjOne = {
     lightTextDesc: false,
     topLine: 'Projects',
     headLine: 'What We\'re Working On',
-    description: 'Loopbreakr focuses on creating completely free mental health apps. There are currently a few apps in development and in release. Read more about them here!',
+    description: 'Loopbreakr focuses on creating completely free mental health apps. No subscription fees, no freemium, and no disruptive ads! There are currently a few apps in development and in release. Read more about them here!',
     imgStart: true,
     img: projectsIcon,
     alt: 'projects',
