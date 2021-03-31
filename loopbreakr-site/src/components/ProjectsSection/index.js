@@ -1,7 +1,9 @@
 import React from 'react'
-import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, ImgWrap, TextWrapper, TopLine, Heading, Subtitle} from '../Common/CommonElements.js'
+import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, ImgWrap, TextWrapper, TopLine, Heading, Subtitle, ImgBelow} from '../Common/CommonElements.js'
+import ImageSlider from '../Slider/ImageSlider.js'
+import { SliderData } from '../Slider/SliderData.js'
 
-const ProjectsSection = ({color, id, topLine, lightText, headLine, darkText, description}) => {
+const ProjectsSection = ({color, id, topLine, lightText, headLine, darkText, description, img, alt}) => {
     return (
         <InfoContainer style={{backgroundColor: color}} id={id}>
             <InfoWrapper>
@@ -12,11 +14,10 @@ const ProjectsSection = ({color, id, topLine, lightText, headLine, darkText, des
                             <Heading lightText={lightText}>{headLine}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                         </TextWrapper>
+                        
                     </Column1>
                     <Column2>
-                        <ImgWrap>
-
-                        </ImgWrap>
+                        <ImageSlider slides={SliderData}/>
                     </Column2>
                 </InfoRow>
             </InfoWrapper>

@@ -1,4 +1,6 @@
-import Image from './../images/aboutIcon.svg'
+import Image from './../images/aboutIcon.svg';
+import projectsIcon from './../images/projectsIcon.svg';
+
 export const homeObjOne = {
     id: 'about',
     lightText: false,
@@ -21,8 +23,10 @@ export const projectsObjOne = {
     lightTextDesc: false,
     topLine: 'Projects',
     headLine: 'What We\'re Working On',
-    description: 'Loopbreakr focuses on creating completely free mental health apps. There atr currently a few apps in development and in release. Read more about them here!',
+    description: 'Loopbreakr focuses on creating completely free mental health apps. There are currently a few apps in development and in release. Read more about them here!',
     imgStart: true,
+    img: projectsIcon,
+    alt: 'projects',
     dark: true,
     primary: false,
     darkText: false,

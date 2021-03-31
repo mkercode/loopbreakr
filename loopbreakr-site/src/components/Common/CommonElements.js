@@ -93,14 +93,18 @@ export const ImgWrap = styled.div`
     max-width: 555px;
     height:100%;
 
-
 `
 
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding: 0 20px 0 20px;
+`
 
-
+export const ImgBelow = styled.img`
+    width: 100%;
+    
+    justify-content: center;
+    padding: 0 40px 0 20px;
 
 `
