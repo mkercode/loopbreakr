@@ -6,7 +6,6 @@ background: #e9c46a;
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 0 30px;
 height: 800px;
 position: relative;
 z-index: 1;
@@ -31,7 +30,7 @@ overflow: hidden;
 `
 
 export const GreetingIcon = styled.img`
-    width: 200px;
+    width: 300px;
     height: 500px;
     position: "absolute", 
     bottom: 0, 
@@ -39,14 +38,14 @@ export const GreetingIcon = styled.img`
     margin-right: 54px;
 
     @media screen and (max-width: 1220px){
-        width: 175px;
+        width: 300px;
         height: 450px;
         margin-right: 24px;
     }
     
     @media screen and (max-width: 760px){
-        width: 150px;
-        height: 350px;
+        width: 250px;
+        height: 400px;
         margin-right:8px
     }
 `
@@ -58,6 +57,7 @@ position: absolute;
 padding: 8px 24px;
 display: flex;
 flex-direction: column;
+margin-top: -80px;
 `
 
 export const HeroH1 = styled.h1`

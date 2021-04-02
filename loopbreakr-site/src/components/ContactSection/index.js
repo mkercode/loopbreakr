@@ -1,5 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
+import axios from 'axios'
 import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, ImgWrap, TextWrapper, TopLine, Heading, Subtitle} from '../Common/CommonElements.js'
+import ContactForm from './ContactForm.js'
+
+
 
 const ContactSection = ({color, id, topLine, lightText, headLine, darkText, description}) => {
     return (
@@ -15,7 +19,7 @@ const ContactSection = ({color, id, topLine, lightText, headLine, darkText, desc
                     </Column1>
                     <Column2>
                         <ImgWrap>
-
+                            <ContactForm/>
                         </ImgWrap>
                     </Column2>
                 </InfoRow>

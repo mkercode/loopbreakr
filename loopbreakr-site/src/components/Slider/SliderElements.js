@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Slider = styled.div`
 position:relative;
-height:100vh;
+height:90vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -34,12 +34,12 @@ margin: 30px;
 export const Description = styled.p`
     max-width: 440px;
     margin: 30px;
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 13px;
+    line-height: 20px;
     color: '#fff';
 
     @media screen and (max-width: 480px){
-        font-size: 12px;
+        font-size: 10px;
         margin: 50px;
     }
 

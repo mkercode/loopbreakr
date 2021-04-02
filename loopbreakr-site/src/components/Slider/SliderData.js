@@ -1,5 +1,5 @@
-import Image from './../../images/greetingIcon.svg';
-import projectsIcon from './../../images/projectsIcon.svg';
+import Image from '../../images/greetingIcon.svg';
+import projectsIcon from '../../images/heroIcon.svg';
 
 export const SliderData = [
     {

@@ -1,5 +1,5 @@
-import Image from './../images/aboutIcon.svg';
-import projectsIcon from './../images/projectsIcon.svg';
+import Image from '../images/aboutIcon.svg';
+import projectsIcon from '../images/projectsIcon.svg';
 
 export const homeObjOne = {
     id: 'about',

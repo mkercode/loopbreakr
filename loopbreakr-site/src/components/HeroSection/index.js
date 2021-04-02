@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from '../../images/greetingIcon.svg'
+import Image from '../../images/heroIcon.svg'
 import {HeroContainer, GreetingIcon, HeroBg, HeroContent, HeroH1, HeroP} from './HeroElements.js'
 
 const HeroSection = () => {
