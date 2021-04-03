@@ -1,8 +1,8 @@
-import React, {useState} from 'react'
-import axios from 'axios'
-import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, ImgWrap, TextWrapper, TopLine, Heading, Subtitle} from '../Common/CommonElements.js'
+import React from 'react'
+import {InfoContainer, InfoWrapper, InfoRow, ImgWrap, TextWrapper, TopLine, Heading, Subtitle, ImgBelow} from '../Common/CommonElements.js'
+import{Column1, Column2} from './ContactElements.js'
 import ContactForm from './ContactForm.js'
-
+import Image from '../../images/contactIcon.svg'
 
 
 const ContactSection = ({color, id, topLine, lightText, headLine, darkText, description}) => {
@@ -15,7 +15,9 @@ const ContactSection = ({color, id, topLine, lightText, headLine, darkText, desc
                             <TopLine>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headLine}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
+                            <ImgBelow src={Image}/>
                         </TextWrapper>
+                        
                     </Column1>
                     <Column2>
                         <ImgWrap>

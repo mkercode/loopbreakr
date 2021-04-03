@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
-import { TextWrapper, TextPadWrapper} from '../Common/CommonElements';
+import { TextWrapper} from '../Common/CommonElements';
 import { ImageSlide, Slider, Title, Description } from './SliderElements';
 
 const ImageSlider = ({slides}) => {
