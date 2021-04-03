@@ -32,10 +32,11 @@ grid-area: col2;
 
 export const Container = styled.div`
     box-sizing: border-box;
-    background-color: #56cfe1;
+    background-color: #e9c46a;
     margin: 50px auto;
     width: 100%;
     padding:0 15px 0 15px;
+    
 
 
 
@@ -48,6 +49,13 @@ export const Container = styled.div`
 export const ContactFormWrap = styled.form`
     width: 100%;
     padding: 10px;
+    background-color: #56cfe1;
+    
+
+    &:hover{
+        box-shadow: 1px 1px 4px 1px rgb(58,57,57);
+    }
+
 `
 
 export const ContactLabel = styled.label`
@@ -61,6 +69,7 @@ export const ContactInput = styled.input`
     margin:o auto;
     padding: 10px;
     border:none;
+    box-shadow: 1px 1px 4px 1px rgb(58,57,57);
 `
 
 export const ContactTextArea = styled.textarea`

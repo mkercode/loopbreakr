@@ -19,7 +19,13 @@ const ContactSection = ({color, id, topLine, lightText, headLine, darkText, desc
                         </TextWrapper>
                         
                     </Column1>
-                    <Column2>
+                    <Column2 style={{paddingTop:"20px"} }>
+                    <TextWrapper >
+                        <Subtitle darkText={darkText} style={{marginBottom:"5px"} }>You can reach us at contact@loopbreakr.com</Subtitle>
+                        <Subtitle darkText={darkText} style={{marginBottom:"5px"}}>Or give us a call at (647)-923-8612</Subtitle>
+                        <Subtitle darkText={darkText} style={{marginBottom:"5px"}}>Or send us an email directly using the form below.</Subtitle>
+                        <Subtitle darkText={darkText} style={{marginBottom:"0px"}}>Because having options is pretty cool</Subtitle>
+                    </TextWrapper>
                         <ImgWrap>
                             <ContactForm/>
                         </ImgWrap>
