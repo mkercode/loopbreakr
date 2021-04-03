@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
-import { TextWrapper} from '../Common/CommonElements';
+import { TextWrapper, Button} from '../Common/CommonElements';
 import { ImageSlide, Slider, Title, Description } from './SliderElements';
 
 const ImageSlider = ({slides}) => {
@@ -27,12 +27,13 @@ const ImageSlider = ({slides}) => {
             return(
                 <div className={index === current ? 'slide active' : 'slide'}>
                 {index === current && (
-                    <div>
+                    <div >
                         <TextWrapper>
                         <ImageSlide src={slide.image} alt={slide.name}/>
                         <Title>{slide.name}</Title>
                         <Description>{slide.details}</Description>
                         </TextWrapper>
+                        <Button style={{marginLeft:'20px'}}>Read More</Button>
                         
                     </div>
                 )}

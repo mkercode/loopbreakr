@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
 color: #fff
 
+
 @media screen and (max-width:768px){
     padding: 100px 0;
 }
@@ -14,12 +15,14 @@ export const InfoWrapper = styled.div`
     margin-right: auto;
     margin-left: auto;
     
+    
     justify-content: center;
 
 `
 
 export const InfoRow = styled.div`
     display: grid;
+
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
     grid-template-areas: 
@@ -57,11 +60,8 @@ export const TopLine = styled.p`
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    padding: 40px 0 20px 0;
+    padding: 30px 0 20px 0;
 
-    @media screen and (max-width: 768px){
-        padding-top: 40px;
-    }
 `
 
 export const Heading = styled.h1`
@@ -78,7 +78,7 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
     max-width: 440px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     font-size: 15px;
     line-height: 24px;
     color: ${({ darkText }) => (darkText ? '#f4a261': '#fff')};
@@ -92,13 +92,13 @@ export const Subtitle = styled.p`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height:100%;
+    padding: 10px;
 
 `
 
 export const Img = styled.img`
     width: 100%;
-    margin: 0 0 10px 0;
-    padding: 0 20px 0 20px;
+    
 `
 
 export const ImgBelow = styled.img`
@@ -159,4 +159,17 @@ max-width: 440px;
     padding-top: 0;
     padding-right:50px;
     padding-left:50px;
+`
+
+export const Button = styled.button`
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding:5px;
+    background-color:#e9c46a;
+
+
+    &:hover{
+        background-color: #b2e8ff;
+        color:#e9c46a;
+    }
 `

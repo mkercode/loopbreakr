@@ -1,5 +1,6 @@
 import Image from '../images/aboutIcon.svg';
 import projectsIcon from '../images/projectsIcon.svg';
+import donateIcon from '../images/donateIcon.svg';
 
 export const homeObjOne = {
     id: 'about',
@@ -55,9 +56,10 @@ export const donateObjOne = {
     headLine: 'Drop a Coin',
     description: 'Our mission is a volunteer effort to make helpful technology more accesible. If you like our work, you can consider donating so that we can make more cool apps in the future!',
     imgStart: true,
-    alt: 'donate',
+    alt: 'Donate',
     dark: true,
     primary: false,
     darkText: false,
-    color: '#56cfe1'
+    color: '#56cfe1',
+    img: donateIcon
 }

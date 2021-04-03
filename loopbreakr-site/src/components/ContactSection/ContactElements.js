@@ -33,7 +33,7 @@ grid-area: col2;
 export const Container = styled.div`
     box-sizing: border-box;
     background-color: #e9c46a;
-    margin: 50px auto;
+    margin: 30px auto;
     width: 100%;
     padding:0 15px 0 15px;
     
@@ -86,14 +86,4 @@ export const ContactItem = styled.div`
     margin: 10px 0;
 `
 
-export const SubmitButton = styled.button`
-    margin-top: 3px;
-    margin-bottom: 3px;
-    padding:5px;
-    background-color:#e9c46a;
 
-    &:hover{
-        background-color: #b2e8ff;
-        color:#e9c46a;
-    }
-`

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import {Container, ContactLabel, ContactTextArea, ContactInput, ContactItem, ContactFormWrap, SubmitButton} from './ContactElements.js'
+import { Button } from "../Common/CommonElements.js";
+import {Container, ContactLabel, ContactTextArea, ContactInput, ContactItem, ContactFormWrap} from './ContactElements.js'
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
@@ -44,7 +45,7 @@ const ContactForm = () => {
         <ContactTextArea id="message" label for="Message here..." required />
       </ContactItem>
  
-      <SubmitButton type="submit">{status}</SubmitButton>
+      <Button type="submit">{status}</Button>
  
     </ContactFormWrap>
     </Container>
