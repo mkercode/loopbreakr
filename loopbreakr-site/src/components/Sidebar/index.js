@@ -10,39 +10,16 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
 
             <SidebarWrapper>
-
+                
                 <SidebarMenu>
-                    
-                    <SidebarLink to='about' onClick={toggle}
-                    spy={true}
-                    exact="true"
-                    offset={-80}>
-                        About
-                    </SidebarLink>
-
-                    <SidebarLink to='projects' onClick={toggle}
-                    spy={true}
-                    exact="true"
-                    offset={-80}>
-                        Projects
-                    </SidebarLink>
-
-                    <SidebarLink to='contact' onClick={toggle}
-                    spy={true}
-                    exact="true"
-                    offset={-78}>
-                        Contact
-                    </SidebarLink>
-
-                    <SidebarLink to='donate' onClick={toggle}
-                    spy={true}
-                    exact="true"
-                    offset={-80}>
-                        Donate
-                    </SidebarLink>
-
+                    <SidebarLink to='about' onClick={toggle} spy={true} exact="true" offset={-80}>About</SidebarLink>
+                    <SidebarLink to='projects' onClick={toggle} spy={true} exact="true" offset={-80}>Projects</SidebarLink>
+                    <SidebarLink to='contact' onClick={toggle} spy={true} exact="true" offset={-78}>Contact</SidebarLink>
+                    <SidebarLink to='donate' onClick={toggle} spy={true} exact="true" offset={-80}>Donate</SidebarLink>
                 </SidebarMenu>
+            
             </SidebarWrapper>
+
         </SidebarContainer>
     )
 }
