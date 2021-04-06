@@ -2,7 +2,7 @@ import React from 'react'
 import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, ImgWrap, Img, TextWrapper, TopLine, Heading, Subtitle} from '../Common/CommonElements.js'
 
 
-const InfoSection = ({id, topLine, lightText, headLine, darkText, description, img, alt}) => {
+const InfoSection = ({id, topLine, lightText, headLine, darkText, description, img, alt, bottomText}) => {
     return (
     <InfoContainer id={id}>
         <InfoWrapper>
@@ -11,7 +11,7 @@ const InfoSection = ({id, topLine, lightText, headLine, darkText, description, i
                     <TextWrapper>
                         <TopLine>{topLine}</TopLine>
                         <Heading lightText={lightText}>{headLine}</Heading>
-                        <Subtitle darkText={darkText} style={{marginBottom:"0px"}}>{description}</Subtitle>
+                        <Subtitle darkText={darkText} bottomText={bottomText}>{description}</Subtitle>
                     </TextWrapper>
                 </Column1>
                 <Column2>

@@ -87,6 +87,9 @@ export const Subtitle = styled.p`
         font-size: 12px;
     }
 
+    ${({bottomText}) => 
+    bottomText ? `margin-bottom: 0px` : `margin-bottom: 20px`};
+
 `
 
 export const ImgWrap = styled.div`
@@ -164,8 +167,9 @@ max-width: 440px;
 export const Button = styled.button`
     margin-top: 3px;
     margin-bottom: 3px;
-    padding:5px;
+    padding:6px;
     background-color:#e9c46a;
+    cursor: pointer;
 
 
     &:hover{

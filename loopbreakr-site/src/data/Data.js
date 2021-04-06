@@ -15,7 +15,8 @@ export const homeObjOne = {
     dark: false,
     primary: true,
     darkText: true,
-    color: '#fff'
+    color: '#fff',
+    bottomText: true
 }
 
 export const projectsObjOne = {
