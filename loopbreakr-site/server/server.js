@@ -35,7 +35,7 @@ const contactEmail = nodemailer.createTransport({
     
     try {
       const payment = await stripe.paymentIntents.create({
-        amount,
+        amount : amount.amountVal,
         currency: "USD",
         description: "Loopbreakr",
         payment_method: id,
