@@ -98,7 +98,5 @@ export const NavLinks = styled(LinkS)`
         transition: 0.2 ease-in-out;
     }
 
-    &.active{
-        border-bottom: 3px solid #01bf71
-    }
+
 `

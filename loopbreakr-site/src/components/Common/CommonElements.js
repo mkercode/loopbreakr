@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link as LinkR} from 'react-router-dom';
 
 
 export const InfoContainer = styled.div`
@@ -176,4 +177,7 @@ export const Button = styled.button`
         background-color: #b2e8ff;
         color:#e9c46a;
     }
+`
+export const ButtonRoute = styled(LinkR)`
+display: inline-block
 `

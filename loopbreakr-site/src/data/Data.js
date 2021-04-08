@@ -1,6 +1,7 @@
 import Image from '../images/aboutIcon.svg';
 import projectsIcon from '../images/projectsIcon.svg';
 import donateIcon from '../images/donateIcon.svg';
+import donationFormIcon from '../images/donationFormIcon.svg';
 
 export const homeObjOne = {
     id: 'about',
@@ -42,7 +43,7 @@ export const contactObjOne = {
     topLine: 'Contact',
     headLine: 'Drop a Line',
     description: 'Have a question? Or maybe an idea? Or perhaps you\'re a fellow changemaker looking to collaborate?! Eitherway we\'d love to hear from you.',
-    imgStart: false,
+    imgStart: true,
     dark: false,
     primary: true,
     darkText: true,
@@ -56,11 +57,27 @@ export const donateObjOne = {
     topLine: 'Donate',
     headLine: 'Drop a Coin',
     description: 'Our mission is a volunteer effort to make helpful technology more accesible. If you like our work, you can consider donating so that we can make more cool apps in the future!',
-    imgStart: true,
+    imgStart: false,
     alt: 'Donate',
     dark: true,
     primary: false,
     darkText: false,
     color: '#56cfe1',
     img: donateIcon
+}
+
+export const donateObjTwo = {
+    id: 'donationform',
+    lightText: true,
+    lightTextDesc: false,
+    topLine: 'Donation Form',
+    headLine: 'Donate Here',
+    description: 'Thanks so much for being awesome and inquiring on donating to our efforts. You can enter an amount you think is appropriate below. But no pressure!',
+    imgStart: false,
+    alt: 'Donate',
+    dark: true,
+    primary: false,
+    darkText: false,
+    color: '#56cfe1',
+    img: donationFormIcon
 }
