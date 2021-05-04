@@ -33,7 +33,7 @@ const ImageSlider = ({slides}) => {
                         <Title>{slide.name}</Title>
                         <Description>{slide.details}</Description>
                         </TextWrapper>
-                        <Button style={{marginLeft:'20px'}}>Read More {'>'}</Button>
+                        <Button style={{margin:'10px'}}>Read More {'>'}</Button>
                         
                     </div>
                 )}
