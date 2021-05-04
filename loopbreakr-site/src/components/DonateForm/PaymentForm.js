@@ -65,6 +65,7 @@ export default function PaymentForm() {
         <>
         {!success ? 
         <div>
+            
             <div>
             <AmountButton onClick={() => setAmountVal(100)}>$1</AmountButton>
             <AmountButton onClick={() => setAmountVal(500)}>$5</AmountButton>

@@ -20,6 +20,7 @@ export const AmountButton = styled.button`
 export const FormText = styled.p`
     font-size: 14px;
     color: "#fff"
+    jusstify-content: center;
     align-items: center;
     margin-top:20px;
     margin-bottom:20px;

@@ -73,7 +73,7 @@ export const donateObjTwo = {
     topLine: 'Donation Form',
     headLine: 'Donate Here',
     description: 'Thanks so much for being awesome and inquiring on donating to our efforts. You can enter an amount you think is appropriate below. But no pressure!',
-    imgStart: false,
+    imgStart: true,
     alt: 'Donate',
     dark: true,
     primary: false,
