@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
-import { TextWrapper, Button} from '../Common/CommonElements';
+import { TextWrapper, Button, InfoContainer, InfoWrapper} from '../Common/CommonElements';
 import { ImageSlide, Slider, Title, Description } from './SliderElements';
 
 const ImageSlider = ({slides}) => {
@@ -20,21 +20,27 @@ const ImageSlider = ({slides}) => {
     }
     
     return (
+        <InfoContainer>
+            
+            <InfoWrapper>
+                
         <Slider>
-        <FaArrowAltCircleLeft className= 'left-arrow' onClick ={prevSlide} />
-        <FaArrowAltCircleRight className= 'right-arrow' onClick={nextSlide} />
         {slides.map((slide, index) => {
             return(
                 <div className={index === current ? 'slide active' : 'slide'}>
                 {index === current && (
                     <div >
+                        <FaArrowAltCircleLeft className= 'left-arrow' onClick ={prevSlide} style={{padding:'7px', margin:'-20px'}} />
+        <FaArrowAltCircleRight className= 'right-arrow' onClick={nextSlide} style={{padding:'7px', margin:'-20px'}} />
                         <TextWrapper>
                         <ImageSlide src={slide.image} alt={slide.name}/>
-                        <Title>{slide.name}</Title>
-                        <Description>{slide.details}</Description>
-                        </TextWrapper>
-                        <Button style={{margin:'10px'}}>Read More {'>'}</Button>
+                        <Title style={{textAlign:'center'}}>{slide.name}</Title>
+                        <Description style={{textAlign:'center'}}>{slide.details}</Description>
                         
+        
+                        </TextWrapper>
+                        <Button style={{margin:'10px', marginTop:'20px', padding:'10px'}}>Read More {'>'}</Button>
+                    
                     </div>
                 )}
                 </div>
@@ -42,6 +48,8 @@ const ImageSlider = ({slides}) => {
                 
         )}
         </Slider>
+        </InfoWrapper>
+        </InfoContainer>
     );
 };
 

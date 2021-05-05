@@ -1,9 +1,9 @@
-import Image from '../../images/greetingIcon.svg';
+import cogstructLogo from '../../images/cogstructLogo.svg';
 import hocusFocusIcon from '../../images/hocusFocusLogo.svg';
 
 export const SliderData = [
     {
-        image: Image,
+        image: cogstructLogo,
         name: 'CogStruct',
         details: 'A 100% free mental health app. Evidence based and inspired by clinical cognitive behavioral therapy.'
     },
