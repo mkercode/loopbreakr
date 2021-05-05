@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import { TextWrapper, Button, InfoContainer, InfoWrapper} from '../Common/CommonElements';
-import { ImageSlide, Slider, Title, Description } from './SliderElements';
+import { ImageSlide, Slider, Title, Description,Arrow} from './SliderElements';
 
 const ImageSlider = ({slides}) => {
     const [current, setCurrent] = useState(0);
