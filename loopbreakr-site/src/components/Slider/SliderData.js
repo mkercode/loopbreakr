@@ -5,11 +5,13 @@ export const SliderData = [
     {
         image: cogstructLogo,
         name: 'CogStruct',
-        details: 'A 100% free mental health app. Evidence based and inspired by clinical cognitive behavioral therapy.'
+        details: 'A 100% free mental health app. Evidence based and inspired by clinical cognitive behavioral therapy.',
+        link: '/cogstruct'
     },
     {
         image: hocusFocusIcon,
         name: 'HocusFocus',
-        details: 'A productivity app that focuses on keeping you focused! Based on research in neuroscience and attention disorders.'
+        details: 'A productivity app that focuses on keeping you focused! Based on research in neuroscience and attention disorders.',
+        link: '/hocusfocus'
     }
 ]

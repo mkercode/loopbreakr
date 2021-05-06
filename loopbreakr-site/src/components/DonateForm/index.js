@@ -3,7 +3,6 @@ import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, ImgWrap, TextWrap
 import {Elements} from '@stripe/react-stripe-js'
 import {loadStripe} from "@stripe/stripe-js"
 import PaymentForm from './PaymentForm.js'
-import {ColumnWrapper} from './PaymentFormElements.js'
 
 const PUBLIC_KEY = 'pk_test_51IdPguFGdfQ456uy7Te0bA2yXzbfiMdZFAsdfcBPAevm0o6jF611O729ZLGlco70cnpymlrIduEHUd62qL0AtE410065xybOXh'
 const stripeTestPromise = loadStripe(PUBLIC_KEY)

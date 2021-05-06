@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 import { TextWrapper, Button, InfoContainer, InfoWrapper} from '../Common/CommonElements';
-import { ImageSlide, Slider, Title, Description,Arrow} from './SliderElements';
+import { ImageSlide, Slider, Title, Description} from './SliderElements';
 
 const ImageSlider = ({slides}) => {
     const [current, setCurrent] = useState(0);
@@ -36,10 +37,11 @@ const ImageSlider = ({slides}) => {
                         <ImageSlide src={slide.image} alt={slide.name}/>
                         <Title style={{textAlign:'center'}}>{slide.name}</Title>
                         <Description style={{textAlign:'center'}}>{slide.details}</Description>
-                        
-        
                         </TextWrapper>
+                        
+                        <Link to={slide.link}>
                         <Button style={{margin:'10px', marginTop:'20px', padding:'10px'}}>Read More {'>'}</Button>
+                        </Link>
                     
                     </div>
                 )}
