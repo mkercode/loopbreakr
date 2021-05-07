@@ -5,6 +5,7 @@ import {Link as LinkS} from 'react-scroll';
 
 
 export const Nav = styled.nav`
+    font-family: 'Press Start 2P', cursive;
     background: #fff;
     height: 80px;
     margin-top: -80px;
@@ -69,6 +70,7 @@ display:none;
 
 `
 export const NavMenu = styled.ul`
+font-family: 'Press Start 2P', cursive;
     display: flex;
     align-items: center;
     list-style: none;
@@ -81,6 +83,7 @@ export const NavMenu = styled.ul`
 `
 
 export const NavItem = styled.li`
+font-family: 'Press Start 2P', cursive;
     height 80px;
 `
 

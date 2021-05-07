@@ -36,6 +36,7 @@ export const SidebarWrapper = styled.div`
 `
 
 export const SidebarMenu = styled.ul`
+    font-family: 'Press Start 2P', cursive;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 80px);
