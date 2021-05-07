@@ -15,6 +15,7 @@ margin: 0 auto;
 border: 4px solid green;
 padding:10px;
 background-color:#fff;
+margin-top: 30px;
 `
 
 export const PreviewContainer = styled.div`
@@ -33,4 +34,11 @@ width: 100px;
 height: 100px;
 margin: 5px 0 5px 5px;
 background-color:#fff;
+`
+
+export const SpaceContainer = styled.div`
+
+@media screen and (max-width:768px){
+    margin-bottom:30px;
+}
 `
