@@ -65,6 +65,7 @@ color: #fff;
 align: center;
 font-size: 40px;
 text-align: center;
+font-family: 'Press Start 2P', cursive;
 @media screen and (max-width: 1220px){
     font-size: 30px;
 }
@@ -75,13 +76,15 @@ text-align: center;
 `
 
 export const HeroP = styled.p`
+font-family: 'Source Code Pro', monospace;
+font-style:bold;
 color: #fff;
 align: center;
 margin-top: 24px;
-font-size: 20px;
+font-size: 40px;
 text-align: center;
 max-width: 600px
-font-family: 'Share Tech', sans-serif;
+
 
 
 @media screen and (max-width: 1220){

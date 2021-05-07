@@ -7,6 +7,7 @@ export const ColumnWrapper = styled.div`
 `
 
 export const AmountButton = styled.button`
+    font-family: 'Press Start 2P', cursive;
     font-size: 16px;
 	width: auto;
     padding:3px;
@@ -18,7 +19,8 @@ export const AmountButton = styled.button`
 	transition: all 100ms ease-in-out;
 `
 export const FormText = styled.p`
-    font-size: 14px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
     color: "#fff"
     jusstify-content: center;
     align-items: center;

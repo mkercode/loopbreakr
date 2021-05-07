@@ -62,6 +62,7 @@ export const ContactLabel = styled.label`
     display: block;
     margin-bottom: 10px;
     margin-top: 10px;
+    font-family: 'Source Code Pro', monospace;
 `
 
 export const ContactInput = styled.input`
@@ -70,6 +71,7 @@ export const ContactInput = styled.input`
     padding: 10px;
     border:none;
     box-shadow: 1px 1px 4px 1px rgb(58,57,57);
+    font-family: 'Source Code Pro', monospace;
 `
 
 export const ContactTextArea = styled.textarea`
@@ -79,6 +81,7 @@ export const ContactTextArea = styled.textarea`
     border:none;
     box-shadow: 1px 1px 4px 1px rgb(58,57,57);
     height:100px;
+    font-family: 'Source Code Pro', monospace;
 `
 
 

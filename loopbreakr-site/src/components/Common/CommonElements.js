@@ -56,16 +56,19 @@ export const TextWrapper = styled.div`
     `
 
 export const TopLine = styled.p`
+    font-family: 'Press Start 2P', cursive;
     font-size: 12px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     padding: 30px 0 20px 0;
+    
 
 `
 
 export const Heading = styled.h1`
+    font-family: 'Press Start 2P', cursive;
     margin-bottom: 24px;
     font-size: 25px:
     line-height: 1.1;
@@ -78,9 +81,10 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.p`
+    font-family: 'Source Code Pro', monospace;
     max-width: 440px;
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 24px;
     color: ${({ darkText }) => (darkText ? '#f4a261': '#fff')};
 
@@ -144,8 +148,9 @@ export const WideTextWrapper = styled.div`
 `
 
 export const WideSubtitle = styled.p`
+    font-family: 'Source Code Pro', monospace;
     margin-bottom: 35px;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 24px;
     color: ${({ darkText }) => (darkText ? '#f4a261': '#fff')};
 
@@ -166,6 +171,7 @@ max-width: 440px;
 `
 
 export const Button = styled.button`
+    font-family: 'Press Start 2P', cursive;
     margin-top: 3px;
     margin-bottom: 3px;
     padding:6px;

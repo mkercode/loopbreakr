@@ -34,6 +34,7 @@ export const ImageSlide = styled.img`
 `
 
 export const Title = styled.h1`
+font-family: 'Press Start 2P', cursive;
 margin-top: 20px;
 max-width: 440px;
 color: #fff;
@@ -49,8 +50,9 @@ padding: 10px;
 `
 
 export const Description = styled.p`
+    font-family: 'Source Code Pro', monospace;
     max-width: 440px;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 20px;
     color: '#fff';
     margin-left: 60px;
