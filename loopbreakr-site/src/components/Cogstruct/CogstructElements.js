@@ -1,5 +1,14 @@
 import styled from 'styled-components';
 
+export const TopContainer = styled.div`
+background: #88EAAF;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 650px;
+position: relative;
+`
+
 export const Container = styled.div`
 margin: auto;
 margin-top: 80px;

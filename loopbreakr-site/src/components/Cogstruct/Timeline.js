@@ -1,7 +1,6 @@
 import React from 'react'
 import { Column1, Column2, InfoRow, InfoContainer,InfoWrapper,TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img} from '../Common/CommonElements';
-import cogstructLogo from '../../images/cogstructLogo.svg';
-import { SpaceContainer } from './CogstructElements'
+import TimelineChart from './TimelineChart';
 
 const Timeline = () => {
     return (
@@ -11,18 +10,21 @@ const Timeline = () => {
                     <InfoRow>
                         <Column1>
                         <TextWrapper>
-                                <TopLine style={{color:'#fff'}}>Mental health resources for everyone</TopLine>
-                                <Heading style={{color:'#f393aa'}}>Cogstruct</Heading>
-                                <Subtitle>An app based on clinical cognitive brhavioral therapy. Created to help anyone target unhelpful behaviors, thoughts, and emotions</Subtitle>
+                                <TopLine style={{color:'#fff'}}>Where we're at</TopLine>
+                                <Heading style={{color:'#f393aa'}}>Timeline</Heading>
+                                <Subtitle>Status: Testing</Subtitle>
+                                <Subtitle>Expected release: June 2021</Subtitle>
+                                <Subtitle>This project is all done and currently being prepared for release on the GooglePlay Store. Keep checking back for updates!</Subtitle>
                             </TextWrapper>
                         
                         </Column1>
                         
                         <Column2>
                         <ImgWrap>
-                        <Img src ={cogstructLogo} style={{padding:'50px'}}/>
+                        <TimelineChart/>
                         </ImgWrap>
                         </Column2>
+
                     </InfoRow>
                 </InfoWrapper>
             </InfoContainer>
