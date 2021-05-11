@@ -1,12 +1,13 @@
 import React from 'react'
 import { Column1, Column2, InfoRow, InfoContainer,InfoWrapper,TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img} from '../Common/CommonElements';
 import cogstructLogo from '../../images/cogstructLogo.svg';
-import { SpaceContainer, TopContainer } from './CogstructElements'
+import { SpaceContainer } from './CogstructElements'
 
 const Intro = () => {
     return (
         
-        <TopContainer>
+        <SpaceContainer style={{backgroundColor: '#88EAAF'}}>
+            <InfoContainer>
                 <InfoWrapper>
                     <InfoRow>
                         <Column2>
@@ -23,8 +24,8 @@ const Intro = () => {
                         </Column1>
                     </InfoRow>
                 </InfoWrapper>
-            
-        </TopContainer>
+            </InfoContainer>
+        </SpaceContainer>
     )
 }
 

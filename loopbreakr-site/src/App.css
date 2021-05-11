@@ -86,3 +86,8 @@ button:hover {
 button:active {
 	transform: scale(0.99);
 }
+
+.date {
+  font-family: 'Press Start 2P', cursive;;
+    font-size: 10px;
+}

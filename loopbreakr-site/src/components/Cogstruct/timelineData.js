@@ -52,7 +52,7 @@ let timelineElements = [
         id: 7,
         title: "Preparation for Launch",
         description:
-          "Fixing bugs testing, and modifying the app to meet play store requirements.",
+          "Fixing bugs testing, and modifying the app to meet the Play Store requirements.",
         date: "May 2021",
         icon: "work",
       },

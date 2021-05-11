@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {cogstructImages} from './cogstructImages'
-import { Container, Preview, PreviewContainer, Selected } from './CogstructElements'
+import { Container, DescriptonContainer, Preview, PreviewContainer, Selected } from './CogstructElements'
 import { Column1, Column2, Heading, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from '../Common/CommonElements';
 
 
@@ -13,7 +13,7 @@ const Description = () => {
                         <InfoRow>
 
                             <Column1>
-                                <Container>
+                                <DescriptonContainer>
                                     <TextWrapper>
                                         <Heading style={{color:'#f393aa', textAlign:'center'}}>Features</Heading>
                                     </TextWrapper>
@@ -23,7 +23,7 @@ const Description = () => {
                                             <Preview src={image} key={index} onClick={()=> setSelected(image)} style={{border: selected === image ? '4px solid green': ''}}/>  
                                         ))}
                                     </PreviewContainer>   
-                                    </Container>
+                                    </DescriptonContainer>
                             </Column1>
 
                             <Column2>

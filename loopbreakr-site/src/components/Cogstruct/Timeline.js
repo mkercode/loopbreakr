@@ -1,15 +1,15 @@
 import React from 'react'
-import { Column1, Column2, InfoRow, InfoContainer,InfoWrapper,TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img} from '../Common/CommonElements';
+import { Column1, Column2, TopInfoRow, InfoContainer,InfoWrapper,TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img} from '../Common/CommonElements';
 import TimelineChart from './TimelineChart';
 
 const Timeline = () => {
     return (
         <div style={{backgroundColor: '#88EAAF'}}>
-            <InfoContainer>
+            <InfoContainer >
                 <InfoWrapper>
-                    <InfoRow>
+                    <TopInfoRow>
                         <Column1>
-                        <TextWrapper>
+                        <TextWrapper >
                                 <TopLine style={{color:'#fff'}}>Where we're at</TopLine>
                                 <Heading style={{color:'#f393aa'}}>Timeline</Heading>
                                 <Subtitle>Status: Testing</Subtitle>
@@ -25,7 +25,7 @@ const Timeline = () => {
                         </ImgWrap>
                         </Column2>
 
-                    </InfoRow>
+                        </TopInfoRow>
                 </InfoWrapper>
             </InfoContainer>
         </div>

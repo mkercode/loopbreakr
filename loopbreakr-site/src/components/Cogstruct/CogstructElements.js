@@ -5,8 +5,14 @@ background: #88EAAF;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 650px;
 position: relative;
+`
+
+export const DescriptonContainer = styled.div`
+margin: auto;
+margin-top: 30px;
+width: 100%;
+max-width: 540px;
 `
 
 export const Container = styled.div`
@@ -51,3 +57,6 @@ export const SpaceContainer = styled.div`
     margin-bottom:30px;
 }
 `
+
+
+
