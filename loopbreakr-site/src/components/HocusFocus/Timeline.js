@@ -4,17 +4,17 @@ import TimelineChart from './TimelineChart';
 
 const Timeline = () => {
     return (
-        <div style={{backgroundColor: '#88EAAF'}}>
+        <div style={{backgroundColor: '#9D9FFF'}}>
             <InfoContainer >
                 <InfoWrapper>
                     <TopInfoRow>
                         <Column1>
                         <TextWrapper >
                                 <TopLine style={{color:'#fff'}}>Where we're at</TopLine>
-                                <Heading style={{color:'#f393aa'}}>Timeline</Heading>
-                                <Subtitle>Status: Testing</Subtitle>
-                                <Subtitle>Expected release: June 2021</Subtitle>
-                                <Subtitle>This project is all done and currently being prepared for release on the GooglePlay Store. Keep checking back for updates!</Subtitle>
+                                <Heading style={{color:'#E64648'}}>Timeline</Heading>
+                                <Subtitle>Status: Development</Subtitle>
+                                <Subtitle>Expected release: September 2021</Subtitle>
+                                <Subtitle>This project is currently in develpment. Keep checking back for updates!</Subtitle>
                             </TextWrapper>
                         
                         </Column1>

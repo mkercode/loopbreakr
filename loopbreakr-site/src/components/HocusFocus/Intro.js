@@ -1,25 +1,24 @@
 import React from 'react'
 import { Column1, Column2, InfoRow, InfoContainer,InfoWrapper,TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img} from '../Common/CommonElements';
-import cogstructLogo from '../../images/cogstructLogo.svg';
-import { SpaceContainer } from './CogstructElements'
+import hocusFocusLogo from '../../images/hocusFocusLogo.svg';
+import {SpaceContainer } from './HocusFocusElements'
 
 const Intro = () => {
     return (
-        
-        <SpaceContainer style={{backgroundColor: '#88EAAF'}}>
+        <SpaceContainer style={{backgroundColor: '#9D9FFF'}}>
             <InfoContainer>
                 <InfoWrapper>
                     <InfoRow>
                         <Column2>
                         <ImgWrap>
-                        <Img src ={cogstructLogo} style={{padding:'50px'}}/>
+                        <Img src ={hocusFocusLogo} style={{padding:'50px'}}/>
                         </ImgWrap>
                         </Column2>
                         <Column1>
                             <TextWrapper>
-                                <TopLine style={{color:'#fff'}}>Mental health resources for everyone</TopLine>
-                                <Heading style={{color:'#f393aa'}}>Cogstruct</Heading>
-                                <Subtitle>An app based on clinical Cognitive Behavioral Therapy (CBT). Created to help anyone target unhelpful behaviors, thoughts, and emotions</Subtitle>
+                                <TopLine style={{color:'#fff'}}>Focus on getting focused</TopLine>
+                                <Heading style={{color:'#E64648'}}>Hocus Focus</Heading>
+                                <Subtitle>An app based on ADHD research and the concept of focus techniques such as Pomodoro.</Subtitle>
                             </TextWrapper>
                         </Column1>
                     </InfoRow>
