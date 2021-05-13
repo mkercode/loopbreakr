@@ -8,7 +8,7 @@ const Intro = () => {
         <SpaceContainer style={{backgroundColor: '#9D9FFF'}}>
             <InfoContainer>
                 <InfoWrapper>
-                    <InfoRow>
+                    <InfoRow style={{minHeight:'700px'}}>
                         <Column2>
                         <ImgWrap>
                         <Img src ={hocusFocusLogo} style={{padding:'50px'}}/>

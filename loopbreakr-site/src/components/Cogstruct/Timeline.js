@@ -2,10 +2,11 @@ import React from 'react'
 import { Column1, Column2, TopInfoRow, InfoContainer,InfoWrapper,TextWrapper, TopLine, Heading, Subtitle, ImgWrap} from '../Common/CommonElements';
 import TimelineChart from './TimelineChart';
 
+
 const Timeline = () => {
     return (
         <div style={{backgroundColor: '#88EAAF'}}>
-            <InfoContainer >
+            <InfoContainer>
                 <InfoWrapper>
                     <TopInfoRow>
                         <Column1>

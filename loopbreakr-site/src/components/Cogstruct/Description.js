@@ -7,11 +7,9 @@ import { Column1, Column2, Heading, InfoContainer, InfoRow, InfoWrapper, Subtitl
 const Description = () => {
     const [selected, setSelected] = useState(cogstructImages[0]);
     return (
-            <div style={{backgroundColor:'#fff'}}>
                 <InfoContainer>
                     <InfoWrapper>
                         <InfoRow>
-
                             <Column1>
                                 <DescriptonContainer>
                                     <TextWrapper>
@@ -35,7 +33,6 @@ const Description = () => {
                         </InfoRow>
                 </InfoWrapper>
                </InfoContainer>
-            </div>
     )
 }
 

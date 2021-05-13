@@ -13,6 +13,7 @@ margin: auto;
 margin-top: 30px;
 width: 100%;
 max-width: 540px;
+
 `
 
 export const Container = styled.div`

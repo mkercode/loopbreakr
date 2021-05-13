@@ -3,13 +3,14 @@ import { Column1, Column2, InfoRow, InfoContainer,InfoWrapper,TextWrapper, TopLi
 import cogstructLogo from '../../images/cogstructLogo.svg';
 import { SpaceContainer } from './CogstructElements'
 
+
+
 const Intro = () => {
     return (
-        
         <SpaceContainer style={{backgroundColor: '#88EAAF'}}>
             <InfoContainer>
                 <InfoWrapper>
-                    <InfoRow>
+                    <InfoRow style={{minHeight:'700px'}}>
                         <Column2>
                         <ImgWrap>
                         <Img src ={cogstructLogo} style={{padding:'50px'}}/>
