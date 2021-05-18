@@ -1,5 +1,5 @@
 import React from 'react'
-import {InfoContainer, InfoWrapper, InfoRow, ImgWrap, TextWrapper, TopLine, Heading, Subtitle, ImgBelow} from '../Common/CommonElements.js'
+import {InfoContainer, InfoWrapper, InfoRow, ImgWrap, TextWrapper, TopLine, Heading, Subtitle, Img} from '../Common/CommonElements.js'
 import{Column1, Column2} from './ContactElements.js'
 import ContactForm from './ContactForm.js'
 import Image from '../../images/contactIcon.svg'
@@ -14,12 +14,13 @@ const ContactSection = ({color, id, topLine, lightText, headLine, darkText, desc
             <InfoWrapper>
                 <InfoRow>
                     <Column1>
-
                             <TextWrapper>
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headLine}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                                <ImgBelow src={Image}/>
+                                <ImgWrap>
+                                    <Img src={Image}/>
+                                </ImgWrap>
                             </TextWrapper>
 
                     </Column1>
@@ -30,10 +31,12 @@ const ContactSection = ({color, id, topLine, lightText, headLine, darkText, desc
                                 <Subtitle darkText={darkText} style={{marginBottom:"5px"}}>Or give us a call at (647)-923-8612</Subtitle>
                                 <Subtitle darkText={darkText} style={{marginBottom:"5px"}}>OR send us an email directly using the form below</Subtitle>
                                 <Subtitle darkText={darkText} style={{marginBottom:"0px"}}>Because having options is pretty cool</Subtitle>
-                            </TextWrapper>
+                            
                             <ImgWrap>
                                 <ContactForm/>
                             </ImgWrap>
+
+                            </TextWrapper>
 
                     </Column2>
                 </InfoRow>

@@ -1,16 +1,14 @@
 import styled from 'styled-components';
 
+
+
 export const Column1 = styled.div`
 margin-bottom: 30px;
 padding: 0 15px;
 grid-area: col1;
 
 @media screen and (min-width: 1100px){
-    padding-right: 50px;
-}
-
-@media screen and (min-width: 1000px){
-    padding-right: 100px;
+    margin-right: 10px;
 }
 
 `
@@ -21,11 +19,7 @@ padding: 0 15px;
 grid-area: col2;
 
 @media screen and (min-width: 1100px){
-    padding-left: 50px;
-}
-
-@media screen and (min-width: 1000px){
-    padding-left: 100px;
+    margin-left: 10px;
 }
 `
 

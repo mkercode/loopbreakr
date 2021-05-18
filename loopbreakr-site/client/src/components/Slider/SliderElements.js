@@ -2,34 +2,29 @@ import styled from 'styled-components';
 
 
 export const Slider = styled.div`
-position:relative;
-height:645px;
-display: grid;
+display:flex;
+height:600px;
 justify-content: center;
 align-items: center;
-padding:50px;
+margin-top:-30px;
 
+
+@media screen and (max-width: 760px){
+    margin-top:-60px;
 }
 `
 
 export const ImageSlide = styled.img`
     
     height: 250px;
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
     padding: 10px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-bottom:20px;
 
-    @media screen and (max-width: 480px){
-        width: 300px;
+    @media screen and (max-width: 550px){
         height: 200px;
-        margin: 10px;
-    }
 
-    @media screen and (max-width: 760px){
-        width: 400px;
-        height: 200px;
     }
 `
 
@@ -38,11 +33,9 @@ font-family: 'Press Start 2P', cursive;
 margin-top: 20px;
 max-width: 440px;
 color: #fff;
-margin-left: 60px;
-margin-right: 0px;
 padding: 10px;
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 760px){
     font-size: 20px;
     margin: 10px;
 }
@@ -55,12 +48,10 @@ export const Description = styled.p`
     font-size: 16px;
     line-height: 20px;
     color: '#fff';
-    margin-left: 60px;
-    margin-right: 60px; 
     padding:10px;
 
-    @media screen and (max-width: 480px){
-        font-size: 10px;
+    @media screen and (max-width: 760px){
+        font-size: 12px;
         margin: 10px;
     }
 

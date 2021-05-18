@@ -5,7 +5,6 @@ import {Link as LinkS} from 'react-scroll';
 
 
 export const Nav = styled.nav`
-    overflow:hidden;
     font-family: 'Press Start 2P', cursive;
     background: #fff;
     height: 80px;

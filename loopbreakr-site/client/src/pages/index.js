@@ -20,14 +20,16 @@ const Home = () => {
 
 
   return (
-        <div style={{margin:'0px', padding:'0px', overflow:'hidden'}}>
+    <div>
           <Sidebar isOpen={isOpen} toggle={toggle}/>
           <Navbar toggle={toggle}/>  
+          <div style={{margin:'0px', padding:'0px', overflow:'hidden'}}>
           <HeroSection/>
           <InfoSection {...homeObjOne}/>
           <ProjectsSection {...projectsObjOne}/>
           <ContactSection {...contactObjOne}/>
           <DonateSection {...donateObjOne}/>
+        </div>
         </div>
     )
 }

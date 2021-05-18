@@ -6,9 +6,11 @@ export const InfoContainer = styled.div`
 color: #fff
 overflow:hidden;
 
+padding: 0px 20px 0px 20px;
+
 
 @media screen and (max-width:768px){
-    padding: 100px 0;
+    padding: 20px 5px 0px 5px;
 }
 `
 
@@ -58,17 +60,26 @@ margin-bottom: 30px;
 padding: 0 15px;
 grid-area: col1;
 
+@media screen and (max-width: 768px){
+    padding: 0;
+}
+
 `
 
 export const Column2 = styled.div`
 margin-bottom: 30px;
 padding: 0 15px;
 grid-area: col2;
+
+@media screen and (max-width: 768px){
+    padding: 0;
+}
 `
 
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
+    
     `
 
 export const TopLine = styled.p`
@@ -98,7 +109,7 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
     font-family: 'Source Code Pro', monospace;
-    max-width: 440px;
+    
     margin-bottom: 20px;
     font-size: 20px;
     line-height: 24px;
@@ -114,7 +125,7 @@ export const Subtitle = styled.p`
 `
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
+    max-width: 500px;
     height:100%;
     padding: 10px;
 
@@ -134,14 +145,14 @@ export const ImgBelow = styled.img`
 
 export const padWrapper = styled.div`
     align-items: center;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     justify-content: center;
 
 `
 
 export const AddPadding = styled.div`
-    padding-left: 100px;
-    padding-right: 100px;
+   
 
     @media screen and (max-width: 960px){
         padding-left: 50px;
@@ -161,6 +172,11 @@ export const WideTextWrapper = styled.div`
     padding-top: 0;
     padding-right:50px;
     padding-left:50px;
+
+    @media screen and (max-width: 768px){
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 `
 
 export const WideSubtitle = styled.p`
@@ -187,13 +203,13 @@ max-width: 440px;
 `
 
 export const Button = styled.button`
+    width: calc(100% - 30px);
     font-family: 'Press Start 2P', cursive;
     margin-top: 3px;
     margin-bottom: 3px;
     padding:6px;
     background-color:#e9c46a;
     cursor: pointer;
-
 
     &:hover{
         background-color: #b2e8ff;

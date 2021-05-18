@@ -26,21 +26,22 @@ const ImageSlider = ({slides}) => {
             <InfoWrapper>
                 
         <Slider>
+        
         {slides.map((slide, index) => {
             return(
                 <div className={index === current ? 'slide active' : 'slide'}>
                 {index === current && (
                     <div >
-                        <FaArrowAltCircleLeft className= 'left-arrow' onClick ={prevSlide} style={{padding:'7px', margin:'-20px'}} />
-        <FaArrowAltCircleRight className= 'right-arrow' onClick={nextSlide} style={{padding:'7px', margin:'-20px'}} />
+                        <FaArrowAltCircleLeft className= 'left-arrow' onClick ={prevSlide} style={{padding:'9px'}} />
+        <FaArrowAltCircleRight className= 'right-arrow' onClick={nextSlide} style={{padding:'9px'}} />
                         <TextWrapper>
                         <ImageSlide src={slide.image} alt={slide.name}/>
-                        <Title style={{textAlign:'center'}}>{slide.name}</Title>
+                        <Title style={{textAlign:'center', marginTop:'20px'}}>{slide.name}</Title>
                         <Description style={{textAlign:'center'}}>{slide.details}</Description>
                         </TextWrapper>
                         
                         <Link to={slide.link}>
-                        <Button style={{margin:'10px', marginTop:'20px', padding:'10px'}}>Read More {'>'}</Button>
+                        <Button style={{ marginTop:'20px', padding:'10px'}}>Read More {'>'}</Button>
                         </Link>
                     
                     </div>

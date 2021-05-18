@@ -7,7 +7,7 @@ const HeroSection = () => {
         <HeroContainer>
             <HeroContent>
                 <HeroH1 >Breaking the Mental Loop</HeroH1>
-                <HeroP>Coding the Tools That Help</HeroP>\
+                <HeroP>Coding the Tools That Help</HeroP>
             </HeroContent>
             <HeroBg><GreetingIcon src={Image}  /></HeroBg>
         </HeroContainer>
