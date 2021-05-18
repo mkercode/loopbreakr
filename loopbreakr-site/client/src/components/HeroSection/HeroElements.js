@@ -9,6 +9,7 @@ align-items: center;
 height: 800px;
 position: relative;
 z-index: 1;
+overflow:hidden;
 
 :before{
     content: '';

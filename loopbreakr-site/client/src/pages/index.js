@@ -8,8 +8,6 @@ import ProjectsSection from '../components/ProjectsSection';
 import ContactSection from '../components/ContactSection';
 import DonateSection from '../components/DonateSection';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
 
 
 const Home = () => {
@@ -19,10 +17,10 @@ const Home = () => {
     setIsOpen(!isOpen);
   };
 
-  AOS.init();
+
 
   return (
-        <div>
+        <div style={{margin:'0px', padding:'0px', overflow:'hidden'}}>
           <Sidebar isOpen={isOpen} toggle={toggle}/>
           <Navbar toggle={toggle}/>  
           <HeroSection/>
