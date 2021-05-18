@@ -1,7 +1,7 @@
 import React from 'react'
-import { Column1, Column2, InfoRow, InfoContainer,InfoWrapper,TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img} from '../Common/CommonElements';
+import {Column2, InfoRow, InfoContainer,InfoWrapper,TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img} from '../Common/CommonElements';
 import hocusFocusLogo from '../../images/hocusFocusLogo.svg';
-import {SpaceContainer } from './HocusFocusElements'
+import {Column1, SpaceContainer } from './HocusFocusElements'
 
 const Intro = () => {
     return (

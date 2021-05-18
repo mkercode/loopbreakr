@@ -9,9 +9,9 @@ const DonateSection = ({color, id, topLine, lightText, headLine, darkText, descr
         <InfoContainer style={{backgroundColor: color}} id={id}>
         <InfoWrapper>
             <InfoRow>
-                <Column1 style={{height:'450px'}}>
+                <Column1 >
                     <TextWrapper >
-                        <TopLine>{topLine}</TopLine>
+                        <TopLine style={{marginTop:'15px'}}>{topLine}</TopLine>
                         <Heading lightText={lightText}>{headLine}</Heading>
                         <Subtitle darkText={darkText}>{description}</Subtitle>
                         <ButtonRoute to='/donationform'>
@@ -20,7 +20,7 @@ const DonateSection = ({color, id, topLine, lightText, headLine, darkText, descr
                     </TextWrapper>
                 </Column1>
                 <Column2>
-                    <ImgWrap style={{marginBottom:'-40px'}}>
+                    <ImgWrap>
                         <Img src={img} alt ={alt} />
                     </ImgWrap>
                 </Column2>

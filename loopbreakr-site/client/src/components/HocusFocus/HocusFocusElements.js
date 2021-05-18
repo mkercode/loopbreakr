@@ -8,6 +8,12 @@ align-items: center;
 position: relative;
 `
 
+export const Column1 = styled.div`
+margin-bottom: 30px;
+padding: 0 15px;
+grid-area: col1;
+`
+
 export const DescriptonContainer = styled.div`
 margin: auto;
 margin-top: 30px;

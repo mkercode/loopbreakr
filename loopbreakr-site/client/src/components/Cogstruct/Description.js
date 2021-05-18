@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {cogstructImages} from './cogstructImages'
-import { Container, DescriptonContainer, Preview, PreviewContainer, Selected } from './CogstructElements'
-import { Column1, Column2, Heading, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from '../Common/CommonElements';
+import { Column1, DescriptonContainer, Preview, PreviewContainer, Selected } from './CogstructElements'
+import {Column2, Heading, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from '../Common/CommonElements';
 
 
 const Description = () => {

@@ -57,23 +57,15 @@ export const TopInfoRow = styled.div`
 
 export const Column1 = styled.div`
 margin-bottom: 30px;
+height:100%;
 padding: 0 15px;
 grid-area: col1;
-
-@media screen and (max-width: 768px){
-    padding: 0;
-}
-
 `
 
 export const Column2 = styled.div`
 margin-bottom: 30px;
 padding: 0 15px;
 grid-area: col2;
-
-@media screen and (max-width: 768px){
-    padding: 0;
-}
 `
 
 export const TextWrapper = styled.div`
@@ -126,21 +118,18 @@ export const Subtitle = styled.p`
 
 export const ImgWrap = styled.div`
     max-width: 500px;
-    height:100%;
+
     padding: 10px;
 
 `
 
 export const Img = styled.img`
     width: 100%;
-    
-`
-
-export const ImgBelow = styled.img`
-    width: 100%;
-    
-    justify-content: center;
-
+    min-height:300px;
+    min-width:300px;
+    @media screen and (min-width: 768px){
+        margin-top: 30px;
+    }
 `
 
 export const padWrapper = styled.div`

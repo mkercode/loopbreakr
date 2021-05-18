@@ -10,7 +10,7 @@ const InfoSection = ({id, topLine, lightText, headLine, darkText, description, i
             <InfoRow>
                 <Column1>
                 <div>
-                    <TextWrapper>
+                    <TextWrapper style={{marginTop:'15px'}}>
                         <TopLine>{topLine}</TopLine>
                         <Heading lightText={lightText}>{headLine}</Heading>
                         <Subtitle darkText={darkText} bottomText={bottomText}>{description}</Subtitle>

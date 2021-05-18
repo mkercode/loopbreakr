@@ -15,7 +15,7 @@ const ContactSection = ({color, id, topLine, lightText, headLine, darkText, desc
                 <InfoRow>
                     <Column1>
                             <TextWrapper>
-                                <TopLine>{topLine}</TopLine>
+                                <TopLine >{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headLine}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <ImgWrap>
@@ -24,7 +24,7 @@ const ContactSection = ({color, id, topLine, lightText, headLine, darkText, desc
                             </TextWrapper>
 
                     </Column1>
-                    <Column2 style={{paddingTop:"20px"} }>
+                    <Column2 >
 
                             <TextWrapper >
                                 <Subtitle darkText={darkText} style={{marginBottom:"5px"} }>You can reach us at contact@loopbreakr.com</Subtitle>

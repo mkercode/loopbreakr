@@ -1,7 +1,7 @@
 import React from 'react'
 import hocusFocusGraph from '../../images/hocusFocusGraph.svg';
-import { DescriptonContainer} from './HocusFocusElements'
-import { Column1, Column2, Heading, Img, ImgWrap, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from '../Common/CommonElements';
+import { Column1, DescriptonContainer} from './HocusFocusElements'
+import {Column2, Heading, Img, ImgWrap, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from '../Common/CommonElements';
 
 const Description = () => {
     return (
