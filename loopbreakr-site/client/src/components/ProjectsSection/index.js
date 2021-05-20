@@ -1,5 +1,5 @@
 import React from 'react'
-import {padWrapper,AddPadding, WideTextWrapper, InfoContainer, TopLine, Heading, WideSubtitle, Column2, Column1, InfoRow, InfoWrapper, TextWrapper} from '../Common/CommonElements.js'
+import { WideTextWrapper, InfoContainer, TopLine, Heading, WideSubtitle,  InfoWrapper} from '../Common/CommonElements.js'
 import ImageSlider from '../Slider/ImageSlider.js'
 import { SliderData } from '../Slider/SliderData.js'
 

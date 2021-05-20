@@ -13,7 +13,7 @@ const Timeline = () => {
                                 <TopLine style={{color:'#fff'}}>Where we're at</TopLine>
                                 <Heading style={{color:'#E64648'}}>Timeline</Heading>
                                 <Subtitle>Status: Development</Subtitle>
-                                <Subtitle>Expected release: September 2021</Subtitle>
+                                <Subtitle>Expected release: October 2021</Subtitle>
                                 <Subtitle>This project is currently in develpment. Keep checking back for updates!</Subtitle>
                             </TextWrapper>
                         
