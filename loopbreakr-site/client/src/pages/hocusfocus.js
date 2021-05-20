@@ -6,7 +6,9 @@ const hocusfocus = () => {
     return (
         <div>
             <EmptyNavbar/>
-            <HocusFocus/>
+            <div style={{margin:'0px', padding:'0px', overflow:'hidden'}}>
+                <HocusFocus/>
+            </div>
         </div>
     )
 }

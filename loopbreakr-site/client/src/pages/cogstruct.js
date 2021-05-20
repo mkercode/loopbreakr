@@ -6,7 +6,9 @@ const cogstruct = () => {
     return (
         <div>
             <EmptyNavbar/>
-            <Cogstruct/>
+            <div style={{margin:'0px', padding:'0px', overflow:'hidden'}}>
+                <Cogstruct/>
+            </div>
         </div>
     )
 }

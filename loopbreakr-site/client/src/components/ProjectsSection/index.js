@@ -3,28 +3,22 @@ import {padWrapper,AddPadding, WideTextWrapper, InfoContainer, TopLine, Heading,
 import ImageSlider from '../Slider/ImageSlider.js'
 import { SliderData } from '../Slider/SliderData.js'
 
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const ProjectsSection = ({color, id, topLine, lightText, headLine, darkText, description, img, alt}) => {
+    AOS.init();
     return (
-
         <InfoContainer style={{backgroundColor: color}} id={id} >
             <InfoWrapper>
-                
-                
                 <WideTextWrapper>
                     <TopLine>{topLine}</TopLine>
                     <Heading lightText={lightText}>{headLine}</Heading>
                     <WideSubtitle darkText={darkText}>{description}</WideSubtitle>
-               
-                    </WideTextWrapper>
-                        
+                </WideTextWrapper>
                 
-                    
-                
-                <ImageSlider slides={SliderData}/>
-                
-                </InfoWrapper>
+                <div data-aos="fade-in"><ImageSlider slides={SliderData}/></div>
+            </InfoWrapper>
         </InfoContainer>
         )
     }

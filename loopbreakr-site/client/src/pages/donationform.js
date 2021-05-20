@@ -8,8 +8,10 @@ const DonationForm = () => {
 
     return (
         <div>
-            <EmptyNavbar/>  
-            <DonateForm {...donateObjTwo}/>
+            <EmptyNavbar/>
+            <div style={{margin:'0px', padding:'0px', overflow:'hidden'}}>
+                <DonateForm {...donateObjTwo}/>
+                </div>
         </div>
     )
 }

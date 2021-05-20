@@ -8,6 +8,9 @@ import ProjectsSection from '../components/ProjectsSection';
 import ContactSection from '../components/ContactSection';
 import DonateSection from '../components/DonateSection';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 
 const Home = () => {
@@ -17,20 +20,21 @@ const Home = () => {
     setIsOpen(!isOpen);
   };
 
+  AOS.init();
 
 
   return (
     <div>
-          <Sidebar isOpen={isOpen} toggle={toggle}/>
-          <Navbar toggle={toggle}/>  
-          <div style={{margin:'0px', padding:'0px', overflow:'hidden'}}>
-          <HeroSection/>
-          <InfoSection {...homeObjOne}/>
-          <ProjectsSection {...projectsObjOne}/>
-          <ContactSection {...contactObjOne}/>
-          <DonateSection {...donateObjOne}/>
-        </div>
-        </div>
+      <Sidebar isOpen={isOpen} toggle={toggle}/>
+      <Navbar toggle={toggle}/>  
+      <div style={{margin:'0px', padding:'0px', overflow:'hidden'}}>
+        <div data-aos="fade-in"><HeroSection /></div>
+        <InfoSection {...homeObjOne}/>
+        <div data-aos="zoom-in"><ProjectsSection {...projectsObjOne}/></div>
+        <ContactSection {...contactObjOne}/>
+        <DonateSection {...donateObjOne}/>
+      </div>
+    </div>
     )
 }
 
