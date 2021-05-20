@@ -31,11 +31,10 @@ max-width: 540px;
 
 export const Selected = styled.img`
 display: block;
-width: 300px;
-height: 300px;
+width: 270px;
+height: 585px;
 margin: 0 auto;
 border: 4px solid green;
-padding:10px;
 background-color:#fff;
 margin-top: 30px;
 `
@@ -52,8 +51,8 @@ padding: 40px 0 0 0;
 export const Preview = styled.img`
 display: block;
 cursor: pointer;
-width: 100px;
-height: 100px;
+width: 64px;
+height: 140px;
 margin: 5px 0 5px 5px;
 background-color:#fff;
 `
