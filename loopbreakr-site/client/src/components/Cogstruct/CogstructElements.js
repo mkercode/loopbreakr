@@ -8,6 +8,21 @@ align-items: center;
 position: relative;
 `
 
+export const InfoRow = styled.div`
+    display: grid;
+
+    grid-auto-columns: minmax(auto, 1fr);
+    grid-template-areas: 
+    ${({imgStart}) => 
+    imgStart ? `'col2 col1'` : `'col1 col2'`};
+
+    @media screen and (max-width: 768px){
+        grid-template-areas: 
+        ${({imgStart}) => 
+        imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+    }
+`
+
 export const Column1 = styled.div`
 margin-bottom: 30px;
 padding: 0 15px;
@@ -42,7 +57,7 @@ margin-top: 30px;
 export const PreviewContainer = styled.div`
 width: 100%;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 flex-wrap: wrap;
 padding: 40px 0 0 0;
 

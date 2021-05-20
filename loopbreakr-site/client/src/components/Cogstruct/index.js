@@ -12,7 +12,7 @@ function Cogstruct() {
     return (
         <div style={{marginTop:'80px'}}>
             <Intro />
-            <div data-aos="fade-left"><Description/></div>
+            <Description/>
             <div data-aos="fade-right"><Timeline/></div>
         </div>
     )
